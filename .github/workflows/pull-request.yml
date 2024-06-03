@@ -3,7 +3,7 @@ on:
   pull_request:
     branches:
      - main
-
+     - development
 jobs:
   check-build-before-merge:
     runs-on: ubuntu-latest
